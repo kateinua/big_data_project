@@ -2,7 +2,7 @@ create keyspace if not exists meetups with replication = {'class' : 'SimpleStrat
 
 use meetups;
 
-create table meetups_cities
+create table countries
 (
     country text,
     city    text,

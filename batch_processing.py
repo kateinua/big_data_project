@@ -9,7 +9,7 @@ from pyspark.sql import Window
 from schema import schema
 
 SERVERS = os.environ.get('SERVERS')
-STATES = "./data/states.json"
+STATES = "./states.json"
 
 
 def get_topics(group_topics):

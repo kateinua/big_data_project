@@ -64,7 +64,7 @@ groups = df.select(
     col('group.group_city').alias('city'),
 )
 
-write_to_cassandra(cities, 'meetups_cities')
+write_to_cassandra(cities, 'countries')
 write_to_cassandra(events, 'events')
 write_to_cassandra(city_groups, 'city_groups')
 write_to_cassandra(groups, 'group_events')
